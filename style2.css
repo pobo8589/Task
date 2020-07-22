@@ -1,0 +1,53 @@
+body{
+    background-color: dodgerblue;
+    text-align: center;
+    font-family: Didot;
+}
+h1{
+    color:white;
+    font-family: Didot;
+    padding-top: 20px;
+    font-weight: bold;
+}
+h2{
+    font-family: Didot;
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+.row {
+    background-color: white;
+    font-size: 160%;
+    width: 400px;
+    height: 700px;
+    margin: auto;
+    border: 5px solid black;
+}
+p{
+    padding-top: 0px;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+ul li {
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    list-style-type: none;
+    background: #eee;
+    font-size: 18px;
+}
+ul li:hover {
+    background: #ddd;
+}
+.content {
+    text-align: center;
+    background-color: red;
+    color:white;
+    height: 200px;
+    padding: 20px;
+}
+#napis{
+    color: white;
+}

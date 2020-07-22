@@ -1,0 +1,19 @@
+body{
+    font-family: 'Times New Roman';
+    background-color: #4e555b;
+    text-align: center;
+}
+.container{
+    text-align: center;
+}p{
+     text-align: center;
+     padding-top: 100px;
+     color: black;
+     font-size: 130%;
+ }
+
+table,td,tr,th{
+    border: 1px solid black;
+
+
+}
