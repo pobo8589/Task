@@ -6,12 +6,12 @@ body{
 h1{
     color:white;
     font-family: Didot;
-    padding-top: 20px;
+    padding-top: 40px;
     font-weight: bold;
 }
 h2{
     font-family: Didot;
-    padding-top: 20px;
+    padding-top: 40px;
     font-weight: bold;
     font-size: 150%;
 }
@@ -19,10 +19,10 @@ h2{
 .row {
     background-color: 	#DEB887;
     font-size: 160%;
-    width: 750px;
-    height: 750px;
+    width: 550px;
+    height: 650px;
     margin: auto;
-    border: 5px solid black;
+    border: 7px solid black;
 }
 p{
     padding-top: 0px;
