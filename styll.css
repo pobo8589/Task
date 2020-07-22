@@ -10,19 +10,20 @@ h1{
     font-weight: bold;
 }
 h2{
-    font-family: Didot;
+    font-family: White;
     padding-top: 40px;
     font-weight: bold;
     font-size: 150%;
 }
 
 .row {
-    background-color: 	#DEB887;
+    background-image: url(zdj1.jpg);
     font-size: 160%;
-    width: 550px;
-    height: 650px;
+    width: 500px;
+    height: 600px;
     margin: auto;
     border: 7px solid black;
+    color:white;
 }
 p{
     padding-top: 0px;
