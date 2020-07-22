@@ -1,5 +1,5 @@
 body{
-    background-color: dodgerblue;
+    background-color:#A0522D;
     text-align: center;
     font-family: Didot;
 }
@@ -13,12 +13,13 @@ h2{
     font-family: Didot;
     padding-top: 20px;
     font-weight: bold;
+    font-size: 150%;
 }
 
 .row {
-    background-color: white;
+    background-color: 	#DEB887;
     font-size: 160%;
-    width: 400px;
+    width: 500px;
     height: 700px;
     margin: auto;
     border: 5px solid black;
@@ -43,10 +44,16 @@ ul li:hover {
 }
 .content {
     text-align: center;
-    background-color: red;
-    color:white;
+    background-color: #D2B48Cs;
+    color:black;
     height: 200px;
-    padding: 20px;
+    padding: 30px;
+    border: 2px solid black;
+    font-size: 120%;
+
+}
+.content input,button{
+    border: 2px solid black;
 }
 #napis{
     color: white;
