@@ -1,5 +1,5 @@
 body{
-    background-color:#A0522D;
+    background-color:dodgerblue;
     text-align: center;
     font-family: Didot;
 }
@@ -17,7 +17,8 @@ h2{
 }
 
 .row {
-    background-image: url(zdj1.jpg);
+    background-color: white;
+    /*background-image: url(zdj1.jpg);*/
     font-size: 160%;
     width: 500px;
     height: 600px;

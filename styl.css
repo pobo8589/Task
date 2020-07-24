@@ -1,28 +1,30 @@
 body{
-    background-color: #DEB887;
+    background-color:dodgerblue;
     text-align: center;
     font-family: Didot;
 }
 h1{
     color:white;
     font-family: Didot;
-    padding-top: 20px;
+    padding-top: 40px;
     font-weight: bold;
 }
 h2{
-    font-family: Didot;
-    padding-top: 20px;
+    font-family: White;
+    padding-top: 40px;
     font-weight: bold;
     font-size: 150%;
 }
 
 .row {
-    background-color: 	#FFDEAD;
+    background-color: white;
+    /*background-image: url(zdj1.jpg);*/
     font-size: 160%;
     width: 500px;
-    height: 700px;
+    height: 600px;
     margin: auto;
-    border: 5px solid black;
+    border: 7px solid black;
+    color:white;
 }
 p{
     padding-top: 0px;
@@ -44,7 +46,7 @@ ul li:hover {
 }
 .content {
     text-align: center;
-    background-color: #D2B48Cs;
+    background-color: #FFEBCD;
     color:black;
     height: 200px;
     padding: 30px;
