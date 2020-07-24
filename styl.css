@@ -2,15 +2,16 @@ body{
     background-color:dodgerblue;
     text-align: center;
     font-family: Didot;
+    color: black;
 }
 h1{
-    color:white;
+    color:black;
     font-family: Didot;
     padding-top: 40px;
     font-weight: bold;
 }
 h2{
-    font-family: White;
+    font-family: black;
     padding-top: 40px;
     font-weight: bold;
     font-size: 150%;
@@ -24,7 +25,7 @@ h2{
     height: 600px;
     margin: auto;
     border: 7px solid black;
-    color:white;
+    color:black;
 }
 p{
     padding-top: 0px;

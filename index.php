@@ -45,15 +45,15 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 <script>
 
-    let button = document.getElementById('add');
-    button.addEventListener('click', myFunction, false);
-    function myFunction() {
-        var pole = document.getElementById("pole");
-        var lista = document.getElementById('lista');
-        var nowePole = "<li>"+ pole.value +"<button type=\"button\" class=\"btn btn-danger\">x</button>" + "</li>";
-        lista.innerHTML = lista.innerHTML + nowePole;
-        document.querySelectorAll('li button').forEach(item => item.addEventListener('click', removeTask));
-    };
+    // let button = document.getElementById('add');
+    // button.addEventListener('click', myFunction, false);
+    // function myFunction() {
+    //     var pole = document.getElementById("pole");
+    //     var lista = document.getElementById('lista');
+    //     var nowePole = "<li>"+ pole.value +"<button type=\"button\" class=\"btn btn-danger\">x</button>" + "</li>";
+    //     lista.innerHTML = lista.innerHTML + nowePole;
+    //     document.querySelectorAll('li button').forEach(item => item.addEventListener('click', removeTask));
+    // };
     const removeTask = (e) => {
         e.target.parentNode.remove();
     }
