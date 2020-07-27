@@ -14,6 +14,8 @@
 </head>
 <body>
 <section class="sekcja">
+    <div id="alert" class="alert alert-success" role="alert">
+    </div>
     <h1>TO-DO LIST</h1>
     <div class="container">
         <div class="row">
