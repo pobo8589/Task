@@ -1,0 +1,11 @@
+body{
+    background-color: royalblue;
+    text-align: center;
+    font-size: 140%;
+
+}
+form{
+    border: 3px solid black;
+    padding: 100px;
+    margin: 150px;
+}
