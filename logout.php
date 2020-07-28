@@ -4,6 +4,6 @@
 	
 	session_unset();
 	
-	header('Location: index2.php');
+	header('Location: logowanie.php');
 
 ?>

@@ -4,7 +4,7 @@
 	
 	if ((!isset($_POST['login'])) || (!isset($_POST['haslo'])))
 	{
-		header('Location: index2.php');
+		header('Location: logowanie.php');
 		exit();
 	}
 
@@ -25,7 +25,7 @@
 		$haslo = htmlentities($haslo, ENT_QUOTES, "UTF-8");
 	
 		if ($rezultat = @$polaczenie->query(
-		sprintf("SELECT * FROM user WHERE login = '".$login."' AND haslo = '".$haslo."';"
+		sprintf("SELECT * FROM uzytkownicy WHERE login='$login' AND haslo='$haslo'",
 		mysqli_real_escape_string($polaczenie,$login),
 		mysqli_real_escape_string($polaczenie,$haslo))))
 		{
@@ -42,12 +42,12 @@
 				
 				unset($_SESSION['blad']);
 				$rezultat->free_result();
-				header('Location: logowanie.php');
+				header('Location: index2.php');
 				
 			} else {
 				
 				$_SESSION['blad'] = '<span style="color:red">Nieprawidłowy login lub hasło!</span>';
-				header('Location: index2.php');
+				header('Location: logowanie.php');
 				
 			}
 			
