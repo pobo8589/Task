@@ -9,3 +9,6 @@ form{
     padding: 100px;
     margin: 150px;
 }
+a{
+    border: 1px solid black;
+}
