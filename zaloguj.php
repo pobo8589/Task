@@ -1,13 +1,10 @@
 <?php
-
 	session_start();
-	
 	if ((!isset($_POST['login'])) || (!isset($_POST['haslo'])))
 	{
 		header('Location: logowanie.php');
 		exit();
 	}
-
 	require_once "connect2.php";
 
 	$polaczenie = @new mysqli($host, $db_user, $db_password, $db_name);
@@ -39,24 +36,15 @@
 				$_SESSION['login'] = $wiersz['login'];
 				$_SESSION['haslo'] = $wiersz['haslo'];
 
-				
 				unset($_SESSION['blad']);
 				$rezultat->free_result();
 
-
-
 				header('Location: index.php');
-				
 			} else {
-				
 				$_SESSION['blad'] = '<span style="color:red">Nieprawidłowy login lub hasło!</span>';
 				header('Location: logowanie.php');
-				
 			}
-			
 		}
-
 		$polaczenie->close();
 	}
-	
 ?>
