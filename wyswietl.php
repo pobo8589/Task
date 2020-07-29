@@ -17,7 +17,7 @@ echo"<ul>";
     while($row=mysqli_fetch_array($wynik)){
         echo "<li>".$row['nazwa']."<a href='usun.php?id=".$row['id']."'>Usuń</a></li>";
     }
-session_destroy();
+
 
             ?>
 

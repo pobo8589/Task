@@ -2,11 +2,13 @@
 
 session_start();
 
-//if (!isset($_SESSION['zalogowany']))
-//{
-//    header('Location: logowanie.php');
-//
-//}
+
+
+
+if (!isset($_SESSION['zalogowany']))
+{
+    header('Location: logowanie.php');
+}
 
 ?>
 <!doctype html>
@@ -21,6 +23,11 @@ session_start();
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
     <link rel="stylesheet" href="styl.css">
     <title>Todo!</title>
+    <style>
+        a{
+            color:red;
+        }
+    </style>
 </head>
 <body>
 <section class="sekcja">
@@ -66,6 +73,7 @@ session_start();
 
 
 </script>
-<a href="logout.php">Wyloguj się!</a>
+
+<a style href="logout.php">Wyloguj się!</a>
 </body>
 </html>

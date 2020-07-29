@@ -42,6 +42,9 @@
 				
 				unset($_SESSION['blad']);
 				$rezultat->free_result();
+
+
+
 				header('Location: index.php');
 				
 			} else {
@@ -52,7 +55,7 @@
 			}
 			
 		}
-		
+
 		$polaczenie->close();
 	}
 	
