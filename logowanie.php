@@ -1,6 +1,7 @@
 <?php
 session_start();
 
+
 if ((isset($_SESSION['zalogowany'])) && ($_SESSION['zalogowany']==true))
 {
     header('Location: index.php');
@@ -19,7 +20,11 @@ if ((isset($_SESSION['zalogowany'])) && ($_SESSION['zalogowany']==true))
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
     <title>Logowanie</title>
     <link rel="stylesheet" href="style.css" type="text/css"/>
-
+<style>
+    a{
+        color: red;
+    }
+</style>
 </head>
 
 <body>
@@ -28,10 +33,29 @@ if ((isset($_SESSION['zalogowany'])) && ($_SESSION['zalogowany']==true))
     <br/>
     Hasło: <input type="password" name="haslo" />
     <br/>
-    <button type="submit">log in</button>
+    <input type="submit" name="wyslane" value="log in">
 </form>
-
-
+<?php
+//$wyslane=$_POST['wyslane'];
+//if(isset($wyslane)){
+//$login=$_POST['login'];
+//$haslo=$_POST['haslo'];
+//
+//$id=md5("login");
+//$hash=md5("haslo");
+//
+//if($login===$id && $haslo===$hash){
+//
+//echo "zalogowane";
+//
+//}
+//else echo "Złe dane";
+//
+//}
+//else echo "Wypełnij pola";
+//
+//?>
+<a href="rejestracja.php">REJESTRACJA</a>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
