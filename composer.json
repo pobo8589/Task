@@ -1,0 +1,6 @@
+{
+    "name": "bartosz.poborowski/task",
+    "require": {
+        "phpmailer/phpmailer": "^6.1"
+    }
+}
